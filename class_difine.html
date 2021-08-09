@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var mobile=function(mobile_number,sprice){
+            this.model=mobile_number;
+            
+            this.price=5000;
+            this.sp=sprice;
+            this.sellingprice=function(){
+                return(this.price + this.sp );
+            }
+        };
+      var sumsuing=new mobile("alasy",50000);
+      document.write(sumsuing.model  + "   ",sumsuing.sellingprice())
+      var rk=this.color="red";
+      console.log(mobile.rk.color);
+    </script>
+</body>
+</html>

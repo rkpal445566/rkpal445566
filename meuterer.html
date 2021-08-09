@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    /*  function  mobile(){
+             return{
+                 model:"galaxy",
+                 price:function(){
+                     return("price is rs:",5000);
+                    
+                   
+                 }
+             }
+         }
+         var sumsung=mobile();
+      
+         document.write(sumsung.model + "  ", sumsung.price());
+ pasess parameter
+
+ */
+  var clss=function(modelname){
+      this.name=modelname;
+      this.price=function(){
+          return("mobile parice:5000")
+
+      }
+  }
+var obj=new clss("nokia");
+document.write(obj.name + " ", obj.price());
+      
+  
+ </script>
+</body>
+</html>
