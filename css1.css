@@ -1,0 +1,176 @@
+.rk{
+    border: 5px solid rgb(17, 0, 255);
+    border-radius: 20px;
+    width: 470px;
+    height: 460px;
+    text-align: center;
+    margin-left: 250px;
+    background-color: darkgreen;
+    
+    
+    
+}
+.labl{
+    padding-right: 40px;
+    
+}
+#tx1{
+    width: 163px;
+    margin-left: 37px;
+    border: 3px solid;
+
+    
+}
+.tx{
+    border: 3px solid;
+}
+#login{
+    border: 7px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-image: radial-gradient(circle,red,green,blue);
+
+
+}h2{
+    text-align: center;
+    border: 10px solid;
+    margin-left: 90px;
+    background-image: linear-gradient(red,green,blue);
+    width: 250px;
+    
+    padding-left: 25px;
+    border-radius: 20px;
+} .lef1{
+    text-align: center;
+    float: left;
+    margin-left: 90px;
+    border: 3px solid;
+    width: 100px;
+    border-radius: 20px;
+    color: blue;
+    background-color: rgb(47, 238, 22);
+
+    
+}
+.lef2{
+    float: right;
+    border: 3px solid;
+    margin-right: 50px;
+    width: 100px;
+    background-color: 20px;
+    color: blue;
+    background-color: rgb(80, 226, 43);
+    border-radius: 20px;
+}
+.creat{
+    text-align: senter;
+    padding-left: 30px;
+    color: rgb(205, 0, 34);
+    margin-bottom: 10px;
+    text-transform:uppercase;
+}
+.creat:hover{
+    background-color: darkred;
+    background-image:radial-gradient(circle,red, green,blue);
+    border-radius: 20px;
+}
+    
+    
+.login{
+    border: 3px solid;
+    width: 100px;
+    color: crimson;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    background-image:radial-gradient(circle,green,rgb(209, 189, 194),blue);
+    padding: 10px;
+    border-radius: 40px;
+
+}#img{
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 5px solid crimson;
+    
+
+}
+
+#ragestation{
+    margin-left: 100px;
+    
+}
+.table1{
+    
+    margin-left: 350px;
+
+    
+}
+.row{
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 170px;
+
+}
+.sumit{
+    text-align: center;
+    border: 5px solid;
+    border-radius: 25px;
+    background-image: radial-gradient(circle,green,rgb(230, 211, 211),blue);
+}
+
+ @keyframes change {
+    0% {background-color:red;}
+    25% {background-color: blue;}
+    50% {background-color:green;}
+    100% {background-color:red;}
+    125% {background-color: blue;}
+    150% {background-color:green;}
+    175% {background-color:red;}
+    200% {background-color: rgb(205, 205, 233);}
+    250% {background-color:green;}
+
+    
+}h3{
+    text-align: center;
+    border-bottom: 10px solid;
+    border-radius: 30px;
+    background-color: greenyellow;
+    border-color: forestgreen;
+    height: 30px;
+    text-transform:uppercase;
+    padding: 10px;
+    font-size: 30px;
+    
+    animation-name: change;
+    animation-duration: 14s;
+
+
+
+
+
+
+}
+h1{
+    text-align: center;
+    border: 10px solid;
+    background-image: radial-gradient(circle,blue,red,green);
+    margin-left: 250px;
+    width: 400px;
+    border-radius: 30px;    
+
+}
+
+#pp {
+   background-color: green;
+}
+
+
+
+
+    
+    
+   

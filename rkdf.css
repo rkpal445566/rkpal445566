@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 9px solid;
+    border-radius: 6px;
+    
+    width: 300px;
+    margin-left:  370px;
+    margin-top: 3px;
+}
+.unorder ul li{
+      
+     list-style: none;
+      display: inline;
+      font-size: 25px;
+      padding-left: 10px;
+      border: olive;
+      border: 2px solid;
+      background-color: rgb(225, 65, 86);
+      margin: 9px;
+      text-align: center;
+      
+    }
+   
+    
+    
